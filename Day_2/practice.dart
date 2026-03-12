@@ -17,3 +17,5 @@ int getValue() {
 int add(int a, int b) => a + b;
 int sub(int a, int b) => a - b;
 int multi(int a, int b) => a * b;
+
+//mathematical operations using single line functions
