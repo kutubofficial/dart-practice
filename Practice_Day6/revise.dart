@@ -2,13 +2,32 @@ void main(){
   //duplicates, frequency maps, two-sum, Armstrong numbers, primes, palindromes, second largest, and anagrams
 List<int> ids = [101, 102, 101, 103, 104, 102, 105];
 // print(removeDuplicates(ids));
-// print(countDuplicates(ids));
+print(countDuplicates(ids));
 
   List<int> nums = [101, 102, 103, 104, 105];
   int target = 206; 
-
+  print(twoSum(nums, target));
 
 }
+
+bool twoSum(List<int>nums,int target){
+  for(int i=0;i<nums.length;i++){
+    for(int j=0;j<nums.length;j++){
+      if(nums[i]+nums[j]==target) return true;
+    }
+  }
+  return false;
+}
+bool pairSumElement(List<int>nums, int target){
+  Set<int> seen = {};
+  for(int i=0;i<nums.length;i++){
+    int completePair = target-nums[i];
+    if(seen.contains(completePair))return true;
+    seen.add(nums[i]);
+  }
+  return false;
+}
+
 List<int> removeDuplicates(List<int> ids){
   List<int>unique = [];
   Set<int>seen ={};
