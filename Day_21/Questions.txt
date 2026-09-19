@@ -1,0 +1,49 @@
+-----Coding Questions-----
+
+
+Reverse a String
+Write a program to reverse a string without using a built-in reverse function.
+
+
+Palindrome Check
+Write a program to check whether a given string or number is a palindrome.
+
+
+Largest & Smallest Element
+Write a program to find the largest and smallest elements in an array.
+
+
+Find Duplicate Elements
+Write a program to find duplicate elements in an array.
+
+
+Second Largest Element
+Write a program to find the second-largest element in an array without sorting the array.
+
+
+Prime Number Check
+Write a program to check whether a given number is prime.
+
+
+Fibonacci Series
+Write a program to print the first N numbers of the Fibonacci series.
+
+
+Factorial Using Recursion
+Write a program to find the factorial of a given number using recursion.
+
+
+Anagram Check
+Write a program to check whether two given strings are anagrams of each other.
+
+
+Character Frequency
+Write a program to count the frequency of each character in a given string.
+
+
+Find Missing Number
+Write a program to find the missing number in an array containing numbers from 1 to N.
+
+
+Two Sum
+Given an array of integers and a target value, write a program to find two numbers whose sum equals the target value.
